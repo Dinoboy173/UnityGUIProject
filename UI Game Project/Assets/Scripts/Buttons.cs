@@ -138,8 +138,8 @@ public class Buttons : MonoBehaviour
 
         var currentScene = SceneManager.GetActiveScene();
 
-        //PauseReturn();
-        //GameReset();
+        PauseReturn();
+        GameReset();
 
         SceneManager.UnloadSceneAsync(currentScene.buildIndex);
         SceneManager.LoadScene(sceneName: "MainMenu");
